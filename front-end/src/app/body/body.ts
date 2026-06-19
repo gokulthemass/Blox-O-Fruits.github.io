@@ -49,7 +49,7 @@ export class Body implements OnInit{
 
     this.http
     .get<{ allFeaturedFruit: fruits[]}>(
-      '/assets/data/JSON/featuredFruits.json'
+      'assets/data/JSON/featuredFruits.json'
     ).subscribe({
       next: (data) => {
         this.FruitArray = data.allFeaturedFruit
