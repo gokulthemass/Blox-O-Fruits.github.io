@@ -53,7 +53,7 @@ export class FightingStyles implements OnInit {
 
     this.http
       .get<{ fighting_styles: Fightingstyle[] }>(
-        '/assets/data/JSON/fighting-style.json'
+        'assets/data/JSON/fighting-style.json'
       )
       .subscribe({
         next: (data) => {
