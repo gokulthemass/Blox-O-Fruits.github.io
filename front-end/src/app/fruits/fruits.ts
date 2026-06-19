@@ -39,16 +39,7 @@ export class Fruits implements OnInit{
 
   const savedContent = localStorage.getItem('allfruit');
 
-  if (savedContent) {
-    try {
-      this.fruitArray = JSON.parse(savedContent);
-      console.log('Loaded from local storage!');
-      return;
-    } catch (err) {
-      console.error('Invalid localStorage value:', savedContent);
-      localStorage.removeItem('allfruit');
-    }
-  }
+
 
   this.http
     .get<{ allfruit: fruits[] }>('assets/data/JSON/fruits.json')
