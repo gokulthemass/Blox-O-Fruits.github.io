@@ -1,0 +1,213 @@
+{
+"fighting_styles": [
+{
+"image": "assets/data/images/dark-step.png",
+"name": "Dark Step",
+"moves": ["Dark Kick", "Dark Leg", "Dark Storm", "Dark Neutron"],
+"rarity": "Common",
+"cost": {
+"belly": 150000,
+"fragments": 0
+},
+"requirements": {
+"mastery": "null",
+"other_styles": [],
+"items": []
+},
+"where_to_buy": {
+"npc": "Dark Step Teacher",
+"locations": ["Pirate Village (1st Sea)", "Hot and Cold - Lave Area (Season Sea)", "Castle on the Sea (3rd Sea)"]
+}
+},
+{
+    "image": "assets/data/images/electric.png",
+"name": "Electric",
+"moves": ["Electric Whip", "Electric Shock", "Electric Cloud", "Electric Blast"],
+"rarity": "Common",
+"cost": {
+"belly": 500000,
+"fragments": 0
+},
+"requirements": {
+"mastery": "null",
+"other_styles": [],
+"items": []
+},
+"where_to_buy": {
+"npc": "Mad Scientist",
+"locations": ["Sky Islands (1st Sea)"]
+}
+},
+{
+    "image": "assets/data/images/water-kungfu.png",
+"name": "Water Kung Fu",
+"moves": ["Water Splash", "Water Whip", "Water Tide", "Water Dragon"],
+"rarity": "Common",
+"cost": {
+"belly": 750000,
+"fragments": 0
+},
+"requirements": {
+"mastery": "null",
+"other_styles": [],
+"items": []
+},
+"where_to_buy": {
+"npc": "Water Kung Fu Teacher",
+"locations": ["Fishman Island (between Prison and Snow Islands, 1st Sea)"]
+}
+},
+{
+    "image": "assets/data/images/dragon-breath.png",
+"name": "Dragon Breath",
+"moves": ["Dragon Bite", "Dragon Breath", "Dragon Fury", "Dragon Cataclysm"],
+"rarity": "Rare",
+"cost": {
+"belly": 0,
+"fragments": 1500
+},
+"requirements": {
+"mastery": "null",
+"other_styles": [],
+"items": []
+},
+"where_to_buy": {
+"npc": "Sabi",
+"locations": ["Third Sea (exact location varies)"]
+}
+},
+{
+    "image": "assets/data/images/death-step.png",
+"name": "Death Step",
+"moves": ["Death Kick", "Death Leg", "Death Storm", "Death Neutron"],
+"rarity": "Uncommon",
+"cost": {
+"belly": 2500000,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 400,
+"other_styles": ["Dark Step"],
+"items": ["Library Key (from Awakened Ice Admiral)"]
+},
+"where_to_buy": {
+"npc": "Phoeyu, the Reformed",
+"locations": ["Ice Castle (2nd Sea)"]
+}
+},
+{
+    "image": "assets/data/images/sharkman-karate.png",
+"name": "Sharkman Karate",
+"moves": ["Shark Punch", "Shark Kick", "Shark Tide", "Shark Crusher"],
+"rarity": "Uncommon",
+"cost": {
+"belly": 2500000,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 400,
+"other_styles": ["Water Kung Fu"],
+"items": ["Water Key"]
+},
+"where_to_buy": {
+"npc": "Sharkman Teacher",
+"locations": ["Sharkman Village (2nd Sea)"]
+}
+},
+{
+    "image": "assets/data/images/dragon-talon.png",
+"name": "Dragon Talon",
+"moves": ["Dragon Swipe", "Dragon Claw", "Dragon Explosion", "Dragon God"],
+"rarity": "Legendary",
+"cost": {
+"belly": 0,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 400,
+"other_styles": ["Dragon Breath"],
+"items": ["Fire Essence"]
+},
+"where_to_buy": {
+"npc": "Dragon Talon Teacher",
+"locations": ["Third Sea (near Dragon Breath location)"]
+}
+},
+{
+    "image": "assets/data/images/electric-claws.png",
+"name": "Electric Claw",
+"moves": ["Electric Claw", "Electric Shock", "Electric Storm", "Electric Master"],
+"rarity": "Legendary",
+"cost": {
+"belly": 0,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 400,
+"other_styles": ["Electric"],
+"items": null
+},
+"where_to_buy": {
+"npc": "Electric Claw Teacher",
+"locations": ["Second Sea (exact location varies)"]
+}
+},
+{
+    "image": "assets/data/images/super-human.png",
+"name": "Superhuman",
+"moves": ["Human Punch", "Human Kick", "Human Storm", "Human Master"],
+"rarity": "Mythical",
+"cost": {
+"belly": 3000000,
+"fragments": 0
+},
+"requirements": {
+"mastery": 300,
+"other_styles": ["Dark Step", "Electric", "Water Kung Fu", "Dragon Breath"],
+"items": null
+},
+"where_to_buy": {
+"npc": "Martial Arts Master",
+"locations": ["Third Sea"]
+}
+},
+{
+    "image": "assets/data/images/sanguine-art.png",
+"name": "Sanguine Art",
+"moves": ["Blood Punch", "Blood Kick", "Blood Storm", "Blood God"],
+"rarity": "Mythical",
+"cost": {
+"belly": 5000000,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 150,
+"other_styles": null,
+"items": ["Leviathan Heart", "20 Demonic Wisps", "20 Vampire Fangs", "2 Dark Fragments"]
+},
+"where_to_buy": {
+"npc": "Sheffy (Secret NPC)",
+"locations": ["Tiki Outpost (3rd Sea) - secret hallway near hill with weird thing"]
+}
+},
+{
+    "image": "assets/data/images/god-human.png",
+"name": "Godhuman",
+"moves": ["God Punch", "God Kick", "God Storm", "God Master"],
+"rarity": "Mythical",
+"cost": {
+"belly": 5000000,
+"fragments": 5000
+},
+"requirements": {
+"mastery": 400,
+"other_styles": ["Superhuman", "Death Step", "Sharkman Karate", "Dragon Talon", "Electric Claw", "Dragon Fist"],
+"items": ["20 Demonic Wisps", "20 Vampire Fangs", "2 Dark Fragments", "Fire Essence"]
+},
+"where_to_buy": {
+"npc": "Martial Arts Master",
+"locations": ["Third Sea"]
+}
+}
+]
+}

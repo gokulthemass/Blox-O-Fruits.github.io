@@ -1,0 +1,19 @@
+{
+    "allmaps": [
+        {
+            "name": "Sea One",
+            "image": "assets/data/images/sea-one.webp",
+            "requirement": 0
+        },
+        {
+            "name": "Sea Two",
+            "image": "assets/data/images/sea-two.webp",
+            "requirement": 700 
+        },
+        {
+            "name": "Sea three",
+            "image": "assets/data/images/sea-three.webp",
+            "requirement": 1500
+        }
+    ]
+}

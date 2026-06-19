@@ -1,0 +1,118 @@
+{
+    "allFeaturedFruit": [
+        {
+            "name": "Dragon",
+            "value": 5280000000,
+            "image": "assets/data/images/dragon-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 15000000,
+            "price_robux": 5000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Heatwave Cannon", "key": "Z", "mastery": 1, "description": "Shoot a heatwave cannon blast"},
+                {"name": "Infernal Pincer", "key": "X", "mastery": 150, "description": "Attack with infernal dragon pincers"},
+                {"name": "Scorching Downfall", "key": "C", "mastery": 250, "description": "Call down scorching dragon fire"},
+                {"name": "Imperial Evolution", "key": "V", "mastery": 350, "description": "Evolve into imperial dragon form"},
+                {"name": "Draconic Soar", "key": "F", "mastery": 75, "description": "Soar through the air with draconic wings"}
+            ]
+        },
+                {
+            "name": "Kitsune",
+            "value": 630000000,
+            "image": "assets/data/images/kitsune-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 8000000,
+            "price_robux": 4000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Accursed Enchantment", "key": "Z", "mastery": 1, "description": "Enchant enemies with accursed fox magic"},
+                {"name": "Tails of Burning Agony", "key": "X", "mastery": 50, "description": "Attack with tails of burning agony"},
+                {"name": "Fox Fire Disruption", "key": "C", "mastery": 100, "description": "Disrupt enemies with fox fire"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a nine-tailed fox"},
+                {"name": "Wild Assault", "key": "F", "mastery": 200, "description": "Assault enemies with wild fox mobility"}
+            ]
+        },
+                {
+            "name": "Control",
+            "value": 170000000,
+            "image": "assets/data/images/control-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 9000000,
+            "price_robux": 4000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Domain Control", "key": "Z", "mastery": 1, "description": "Create a control domain in the area"},
+                {"name": "Slice N' Dice", "key": "X", "mastery": 150, "description": "Slice and dice enemies within control area"},
+                {"name": "Gamma Blade", "key": "C", "mastery": 250, "description": "Create a blade of gamma energy"},
+                {"name": "Transmutation", "key": "F", "mastery": 75, "description": "Transmute objects for mobility"}
+            ]
+        },
+                {
+            "name": "Yeti",
+            "value": 140000000,
+            "image": "assets/data/images/yeti-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 5000000,
+            "price_robux": 3000,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Arctic Clap", "key": "Z", "mastery": 1, "description": "Clap hands creating arctic shockwaves"},
+                {"name": "Frostbite Boulder", "key": "X", "mastery": 50, "description": "Throw frostbite boulders at enemies"},
+                {"name": "Glacial Execution", "key": "C", "mastery": 100, "description": "Execute glacial attacks freezing enemies"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a massive yeti"},
+                {"name": "Tundra Rush", "key": "F", "mastery": 200, "description": "Rush through tundra with yeti speed"}
+            ]
+        },
+        {
+            "name": "Portal",
+            "value": 10000000,
+            "image": "assets/data/images/portal-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 1900000,
+            "price_robux": 2000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Portal Dash", "key": "Z", "mastery": 1, "description": "Dash through portals for quick movement"},
+                {"name": "Parallel Escape", "key": "X", "mastery": 50, "description": "Escape to a parallel dimension briefly"},
+                {"name": "World Warp", "key": "C", "mastery": 200, "description": "Warp to different locations instantly"},
+                {"name": "Dimensional Rift", "key": "V", "mastery": 300, "description": "Create a dimensional rift that damages enemies"},
+                {"name": "Quantum Leap", "key": "F", "mastery": 100, "description": "Leap through quantum portals for mobility"}
+            ]
+        },
+        {
+            "name": "Lightning",
+            "value": 50000000,
+            "image": "assets/data/images/lightning-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 2100000,
+            "price_robux": 2100,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Lightning Orb", "key": "Z", "mastery": 1, "description": "Create and throw lightning orbs"},
+                {"name": "Thunderstorm", "key": "X", "mastery": 90, "description": "Summon a thunderstorm in the area"},
+                {"name": "Sky Judgement", "key": "C", "mastery": 160, "description": "Call down lightning judgement from the sky"},
+                {"name": "Thunderball Destruction", "key": "V", "mastery": 250, "description": "Create massive thunderballs for destruction"},
+                {"name": "Electric Flash", "key": "F", "mastery": 30, "description": "Flash through the air with electric speed"}
+            ]
+        }
+
+    ]
+}

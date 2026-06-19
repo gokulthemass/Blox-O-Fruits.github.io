@@ -1,0 +1,424 @@
+{
+  "allswords": [
+    {
+      "name": "Cutlass",
+      "image": "assets/data/images/cutlass.webp",
+      "rarity": "Common",
+      "cost_beli": 1000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Pirate Starter Island",
+      "requirement": "None"
+    },
+    {
+      "name": "Katana",
+      "image": "assets/data/images/katana.webp",
+      "rarity": "Common",
+      "cost_beli": 1000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Pirate Starter Island",
+      "requirement": "None"
+    },
+    {
+      "name": "Dual Katana",
+      "image": "assets/data/images/dual_katana.webp",
+      "rarity": "Common",
+      "cost_beli": 12000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Pirate Village",
+      "requirement": "None"
+    },
+    {
+      "name": "Iron Mace",
+      "image": "assets/data/images/iron_mace.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 25000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Pirate Village",
+      "requirement": "None"
+    },
+    {
+      "name": "Triple Katana",
+      "image": "assets/data/images/triple_katana.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 60000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Frozen Village",
+      "requirement": "None"
+    },
+    {
+      "name": "Fishing Trophy",
+      "image": "assets/data/images/fishing_trophy.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Event Reward",
+      "location": "Special Event",
+      "requirement": "Limited Event"
+    },
+    {
+      "name": "Shark Saw",
+      "image": "assets/data/images/shark_saw.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "The Saw",
+      "location": "Middle Town",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Twin Hooks",
+      "image": "assets/data/images/twin_hooks.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Captain Elephant",
+      "location": "Floating Turtle",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Pipe",
+      "image": "assets/data/images/pipe.webp",
+      "rarity": "Rare",
+      "cost_beli": 100000,
+      "cost_fragments": 0,
+      "npc": "Quest Reward",
+      "location": "Upper Skylands",
+      "requirement": "Complete Quest"
+    },
+    {
+      "name": "Soul Cane",
+      "image": "assets/data/images/soul_cane.webp",
+      "rarity": "Rare",
+      "cost_beli": 750000,
+      "cost_fragments": 0,
+      "npc": "Living Skeleton",
+      "location": "Magma Village",
+      "requirement": "Purchase"
+    },
+    {
+      "name": "Warden Sword",
+      "image": "assets/data/images/wardens_sword.webp",
+      "rarity": "Rare",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Warden",
+      "location": "Prison",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Trident",
+      "image": "assets/data/images/trident.webp",
+      "rarity": "Rare",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Fishman Lord",
+      "location": "Underwater City",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Dragon Trident",
+      "image": "assets/data/images/dragon_trident.webp",
+      "rarity": "Rare",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Cake Prince",
+      "location": "Sea of Treats",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Dual-Headed Blade",
+      "image": "assets/data/images/dual_headed_blade.webp",
+      "rarity": "Rare",
+      "cost_beli": 400000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Second Sea",
+      "requirement": "Purchase"
+    },
+    {
+      "name": "Flail",
+      "image": "assets/data/images/flail.webp",
+      "rarity": "Rare",
+      "cost_beli": 100000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Second Sea",
+      "requirement": "Purchase"
+    },
+    {
+      "name": "Longsword",
+      "image": "assets/data/images/longsword.webp",
+      "rarity": "Rare",
+      "cost_beli": 200000,
+      "cost_fragments": 0,
+      "npc": "Sword Dealer",
+      "location": "Second Sea",
+      "requirement": "Purchase"
+    },
+    {
+      "name": "Gravity Blade",
+      "image": "assets/data/images/gravity_blade.webp",
+      "rarity": "Rare",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Fajita",
+      "location": "Green Zone",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Bisento",
+      "image": "assets/data/images/bisento.webp",
+      "rarity": "Legendary",
+      "cost_beli": 1000000,
+      "cost_fragments": 0,
+      "npc": "Greybeard",
+      "location": "Marine Fortress",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Saber",
+      "image": "assets/data/images/saber.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Saber Expert",
+      "location": "Jungle",
+      "requirement": "Complete Saber Puzzle"
+    },
+    {
+      "name": "Midnight Blade",
+      "image": "assets/data/images/midnight_blade.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 100,
+      "npc": "El Admin",
+      "location": "Second Sea",
+      "requirement": "100 Fragments"
+    },
+    {
+      "name": "Shisui",
+      "image": "assets/data/images/shizu.webp",
+      "rarity": "Legendary",
+      "cost_beli": 2000000,
+      "cost_fragments": 0,
+      "npc": "Legendary Sword Dealer",
+      "location": "Second Sea",
+      "requirement": "Dealer Spawn"
+    },
+    {
+      "name": "Saddi(Saishi)",
+      "image": "assets/data/images/saishi.webp",
+      "rarity": "Legendary",
+      "cost_beli": 2000000,
+      "cost_fragments": 0,
+      "npc": "Legendary Sword Dealer",
+      "location": "Second Sea",
+      "requirement": "Dealer Spawn"
+    },
+    {
+      "name": "Wando(Oroshi)",
+      "image": "assets/data/images/oroshi.webp",
+      "rarity": "Legendary",
+      "cost_beli": 2000000,
+      "cost_fragments": 0,
+      "npc": "Legendary Sword Dealer",
+      "location": "Second Sea",
+      "requirement": "Dealer Spawn"
+    },
+    {
+      "name": "True Triple Katana",
+      "image": "assets/data/images/true_triple_katana.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Mysterious Man",
+      "location": "Second Sea",
+      "requirement": "Own Shisui, Saddi and Wando"
+    },
+    {
+      "name": "Rengoku",
+      "image": "assets/data/images/rengoku.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Hidden Chest",
+      "location": "Ice Castle",
+      "requirement": "Obtain Hidden Key"
+    },
+    {
+      "name": "Buddy Sword",
+      "image": "assets/data/images/buddy_sword.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Cake Queen",
+      "location": "Sea of Treats",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Canvander",
+      "image": "assets/data/images/canvander.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Beautiful Pirate",
+      "location": "Floating Turtle",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Koko",
+      "image": "assets/data/images/koko.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Order",
+      "location": "Hot and Cold",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Dark Dagger",
+      "image": "assets/data/images/dark_dagger.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "rip_indra",
+      "location": "Castle on the Sea",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Dragonheart",
+      "image": "assets/data/images/dragonheart.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 3000,
+      "npc": "Dragon Hunter",
+      "location": "Third Sea",
+      "requirement": "Purchase with Fragments"
+    },
+    {
+      "name": "Fox Lamp",
+      "image": "assets/data/images/fox_lamp.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Event Reward",
+      "location": "Third Sea",
+      "requirement": "Special Event"
+    },
+    {
+      "name": "Oroshi",
+      "image": "assets/data/images/oroshi.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Dragon Hunter",
+      "location": "Third Sea",
+      "requirement": "Dragon Hunter Quest"
+    },
+    {
+      "name": "Pole (1st Form)",
+      "image": "assets/data/images/pole.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Thunder God",
+      "location": "Upper Skylands",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Pole (2nd Form)",
+      "image": "assets/data/images/pole_2.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 5000,
+      "npc": "Blacksmith",
+      "location": "Second Sea",
+      "requirement": "Upgrade Pole V1"
+    },
+    {
+      "name": "Saishi",
+      "image": "assets/data/images/saishi.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Dragon Hunter",
+      "location": "Third Sea",
+      "requirement": "Dragon Hunter Quest"
+    },
+    {
+      "name": "Shark Anchor",
+      "image": "assets/data/images/shark_anchor.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Terrorshark",
+      "location": "Danger Levels",
+      "requirement": "Defeat Anchored Terrorshark"
+    },
+    {
+      "name": "Spikey Trident",
+      "image": "assets/data/images/spikey_trident.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Dough King",
+      "location": "Sea of Treats",
+      "requirement": "Boss Drop"
+    },
+    {
+      "name": "Tushita",
+      "image": "assets/data/images/tushita.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Longma",
+      "location": "Floating Turtle",
+      "requirement": "Complete Tushita Puzzle"
+    },
+    {
+      "name": "Yama",
+      "image": "assets/data/images/yama.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Temple",
+      "location": "Hydra Island",
+      "requirement": "Complete Elite Hunter Progress"
+    },
+    {
+      "name": "Cursed Dual Katana",
+      "image": "assets/data/images/cursed_dual_katana.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Blacksmith",
+      "location": "Third Sea",
+      "requirement": "Own Yama and Tushita"
+    },
+    {
+      "name": "Dark Blade",
+      "image": "assets/data/images/dark_blade.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Gamepass",
+      "location": "All Seas",
+      "requirement": "Dark Blade Gamepass"
+    },
+    {
+      "name": "Hallow Scythe",
+      "image": "assets/data/images/hallow_scythe.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Soul Reaper",
+      "location": "Haunted Castle",
+      "requirement": "Boss Drop"
+    }
+  ]
+}

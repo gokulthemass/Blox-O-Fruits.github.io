@@ -1,0 +1,772 @@
+{
+    "allfruit": [
+        {
+            "name": "Rocket",
+            "value": 5000,
+            "image": "assets/data/images/rocket-fruit.png",
+            "rarity": "common", 
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 4,
+            "price_beli": 5000,
+            "price_robux": 50,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Missile Fist", "key": "Z", "mastery": 1, "description": "Launch a rocket-powered punch at enemies"},
+                {"name": "Air Strike", "key": "X", "mastery": 20, "description": "Fire multiple rockets from the air"},
+                {"name": "Rocket Crash", "key": "C", "mastery": 50, "description": "Crash down with explosive force"},
+                {"name": "Blast Off", "key": "F", "mastery": 75, "description": "Launch yourself into the air using rocket propulsion"}
+            ]
+        },
+        {
+            "name": "Spin",
+            "value": 7500,
+            "image": "assets/data/images/spin-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Natural", 
+            "trend": "stable",
+            "demand": 5,
+            "price_beli": 7500,
+            "price_robux": 75,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Razor Wind", "key": "Z", "mastery": 1, "description": "Create sharp wind blades by spinning"},
+                {"name": "Tornado Assault", "key": "X", "mastery": 50, "description": "Transform into a tornado and assault enemies"},
+                {"name": "Air Slasher", "key": "C", "mastery": 90, "description": "Slash the air to create cutting wind projectiles"},
+                {"name": "Helicopter Flight", "key": "F", "mastery": 25, "description": "Spin rapidly to achieve helicopter-like flight"}
+            ]
+        },
+        {
+            "name": "Blade",
+            "value": 50000,
+            "image": "assets/data/images/blade-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 6,
+            "price_beli": 30000,
+            "price_robux": 100,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Razor Cyclone", "key": "Z", "mastery": 1, "description": "Spin rapidly creating a cyclone of blades"},
+                {"name": "Blade Dance", "key": "X", "mastery": 20, "description": "Perform a swift blade dance attack"},
+                {"name": "Saw Shredder", "key": "C", "mastery": 50, "description": "Shred enemies with saw-like blade attacks"},
+                {"name": "Turbine Flight", "key": "F", "mastery": 80, "description": "Use blade rotation to achieve flight"}
+            ]
+        },
+        {
+            "name": "Spring",
+            "value": 60000,
+            "image": "assets/data/images/spring-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 60000,
+            "price_robux": 180,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Knock", "key": "Z", "mastery": 1, "description": "Spring forward to knock enemies back"},
+                {"name": "Spring Snipe", "key": "X", "mastery": 20, "description": "Snipe enemies from a distance using spring compression"},
+                {"name": "Spring Cannon", "key": "C", "mastery": 50, "description": "Launch yourself like a cannonball"},
+                {"name": "Spring Emperor", "key": "V", "mastery": 125, "description": "Unleash a powerful spring-based AoE attack"},
+                {"name": "Spring Leap", "key": "F", "mastery": 75, "description": "Use spring compression to leap great distances"}
+            ]
+        },
+        {
+            "name": "Bomb",
+            "value": 80000,
+            "image": "assets/data/images/bomb-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Natural",
+            "trend": "underpay",
+            "demand": 6,
+            "price_beli": 80000,
+            "price_robux": 220,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Targeted Bomb", "key": "Z", "mastery": 1, "description": "Throw a targeted explosive at enemies"},
+                {"name": "Bomb Grab", "key": "X", "mastery": 50, "description": "Grab and detonate bombs in close range"},
+                {"name": "Land Mines", "key": "C", "mastery": 75, "description": "Place explosive land mines on the ground"},
+                {"name": "Self Destruct", "key": "V", "mastery": 125, "description": "Detonate yourself in a massive explosion"},
+                {"name": "Explosive Jump", "key": "F", "mastery": 25, "description": "Use explosive force to jump high"}
+            ]
+        },
+        {
+            "name": "Smoke",
+            "value": 100000,
+            "image": "assets/data/images/smoke-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Elemental",
+            "trend": "stable",
+            "demand": 5,
+            "price_beli": 100000,
+            "price_robux": 250,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Smoke Slam", "key": "Z", "mastery": 1, "description": "Slam the ground creating a smoke explosion"},
+                {"name": "Smoke Blast", "key": "X", "mastery": 20, "description": "Blast enemies with concentrated smoke"},
+                {"name": "Smoke Liberation", "key": "C", "mastery": 50, "description": "Liberate smoke in a wide area attack"},
+                {"name": "Smoke Bomber", "key": "F", "mastery": 10, "description": "Transform into smoke and fly"}
+            ]
+        },
+        {
+            "name": "Spike",
+            "value": 180000,
+            "image": "assets/data/images/spike-fruit.png",
+            "rarity": "common",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 4,
+            "price_beli": 180000,
+            "price_robux": 380,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Spike Summon", "key": "Z", "mastery": 1, "description": "Summon spikes from the ground"},
+                {"name": "Whirlwind", "key": "X", "mastery": 25, "description": "Create a whirlwind of spikes"},
+                {"name": "Spiky Ball", "key": "C", "mastery": 50, "description": "Transform into a spiky ball and roll at enemies"},
+                {"name": "Spike Barrage", "key": "V", "mastery": 75, "description": "Unleash a barrage of spikes in all directions"}
+            ]
+        },
+        {
+            "name": "Flame",
+            "value": 250000,
+            "image": "assets/data/images/flame-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 250000,
+            "price_robux": 550,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Fire Bullets", "key": "Z", "mastery": 1, "description": "Shoot fire bullets at enemies"},
+                {"name": "Burning Blast", "key": "X", "mastery": 25, "description": "Unleash a blast of burning flames"},
+                {"name": "Fire Column", "key": "C", "mastery": 50, "description": "Create a column of fire from the ground"},
+                {"name": "Flame Destroyer", "key": "V", "mastery": 100, "description": "Unleash a massive flame explosion"},
+                {"name": "Fire Flight", "key": "F", "mastery": 10, "description": "Use flames to achieve flight"}
+            ]
+        },
+        {
+            "name": "Ice",
+            "value": 550000,
+            "image": "assets/data/images/ice-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Elemental",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 350000,
+            "price_robux": 750,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Ice Spears", "key": "Z", "mastery": 1, "description": "Launch sharp ice spears at enemies"},
+                {"name": "Ice Surge", "key": "X", "mastery": 25, "description": "Create a surge of ice forward"},
+                {"name": "Ice Bird", "key": "C", "mastery": 50, "description": "Summon an ice bird that attacks enemies"},
+                {"name": "Glacial Epoch", "key": "V", "mastery": 100, "description": "Freeze everything in a wide radius"}
+            ]
+        },
+        {
+            "name": "Sand",
+            "value": 420000,
+            "image": "assets/data/images/sand-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Elemental",
+            "trend": "stable",
+            "demand": 6,
+            "price_beli": 420000,
+            "price_robux": 850,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Desert Sword", "key": "Z", "mastery": 1, "description": "Create a sword made of sand"},
+                {"name": "Desert Funeral", "key": "X", "mastery": 40, "description": "Trap enemies in a sand coffin"},
+                {"name": "Sand Tornado", "key": "C", "mastery": 80, "description": "Create a tornado of sand"},
+                {"name": "Heavy Sand", "key": "V", "mastery": 120, "description": "Drop heavy sand on enemies from above"},
+                {"name": "Sand Flight", "key": "F", "mastery": 15, "description": "Fly using sand clouds"}
+            ]
+        },
+        {
+            "name": "Dark",
+            "value": 400000,
+            "image": "assets/data/images/dark-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 7,
+            "price_beli": 500000,
+            "price_robux": 950,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Dark Rocks", "key": "Z", "mastery": 1, "description": "Throw rocks infused with dark energy"},
+                {"name": "Black Spiral", "key": "X", "mastery": 40, "description": "Create a spiral of dark energy"},
+                {"name": "Black Hole", "key": "C", "mastery": 80, "description": "Create a black hole that pulls enemies in"},
+                {"name": "Dark Bomb", "key": "V", "mastery": 110, "description": "Unleash a massive dark energy explosion"}
+            ]
+        },
+        {
+            "name": "Eagle",
+            "value": 800000,
+            "image": "assets/data/images/eagle-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Beast",
+            "trend": "stable",
+            "demand": 6,
+            "price_beli": 550000,
+            "price_robux": 975,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Wind Burst", "key": "Z", "mastery": 1, "description": "Release a burst of wind from eagle wings"},
+                {"name": "Feather Storm", "key": "X", "mastery": 35, "description": "Create a storm of sharp feathers"},
+                {"name": "Bone Crusher", "key": "C", "mastery": 80, "description": "Crush enemies with powerful eagle talons"},
+                {"name": "Soaring Talon", "key": "V", "mastery": 110, "description": "Unleash a devastating talon attack from above"},
+                {"name": "Flight", "key": "F", "mastery": 150, "description": "Transform into an eagle and fly"}
+            ]
+        },
+        {
+            "name": "Diamond",
+            "value": 1000000,
+            "image": "assets/data/images/diamond-fruit.png",
+            "rarity": "uncommon",
+            "fruit_type": "Natural",
+            "trend": "underpay",
+            "demand": 5,
+            "price_beli": 600000,
+            "price_robux": 1000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Encrust", "key": "Z", "mastery": 1, "description": "Cover yourself in diamond armor"},
+                {"name": "Shard Storm", "key": "X", "mastery": 1, "description": "Create a storm of diamond shards"},
+                {"name": "Shimmering Disruption", "key": "C", "mastery": 80, "description": "Disrupt enemies with shimmering diamond light"},
+                {"name": "Prismatic Reflection", "key": "V", "mastery": 110, "description": "Reflect attacks with prismatic diamond shields"}
+            ]
+        },
+        {
+            "name": "Light",
+            "value": 800000,
+            "image": "assets/data/images/light-fruit.png",
+            "rarity": "rare",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 650000,
+            "price_robux": 1100,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Light Ray", "key": "Z", "mastery": 1, "description": "Shoot a concentrated ray of light"},
+                {"name": "Barrage of Light", "key": "X", "mastery": 40, "description": "Unleash a barrage of light projectiles"},
+                {"name": "Reflection Kick", "key": "C", "mastery": 80, "description": "Kick while reflecting light for added damage"},
+                {"name": "Sky Beam Barrage", "key": "V", "mastery": 110, "description": "Call down multiple beams of light from the sky"},
+                {"name": "Light Flight", "key": "F", "mastery": 10, "description": "Fly at the speed of light"}
+            ]
+        },
+        {
+            "name": "Rubber",
+            "value": 700000,
+            "image": "assets/data/images/rubber-fruit.webp",
+            "rarity": "rare",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 750000,
+            "price_robux": 1200,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Cannon", "key": "Z", "mastery": 25, "description": "Launch yourself like a cannonball"},
+                {"name": "Smash", "key": "X", "mastery": 50, "description": "Smash the ground with rubber force"},
+                {"name": "Rush", "key": "C", "mastery": 125, "description": "Rush at enemies with rapid rubber punches"},
+                {"name": "Transformation", "key": "V", "mastery": 225, "description": "Transform into Gear Second/Third form"},
+                {"name": "Slingshot", "key": "F", "mastery": 80, "description": "Use rubber arms to slingshot yourself"}
+            ]
+        },
+        {
+            "name": "Ghost",
+            "value": 800000,
+            "image": "assets/data/images/ghost-fruit.webp",
+            "rarity": "rare",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 940000,
+            "price_robux": 1275,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Shivering Possession", "key": "Z", "mastery": 1, "description": "Possess enemies with ghostly energy"},
+                {"name": "Spectral Release", "key": "X", "mastery": 50, "description": "Release spectral energy in a wide area"},
+                {"name": "Cries of the Underworld", "key": "C", "mastery": 100, "description": "Summon cries from the underworld to damage enemies"},
+                {"name": "Ghost Busters", "key": "V", "mastery": 150, "description": "Summon ghostly entities to attack enemies"},
+                {"name": "Wandering Soul", "key": "F", "mastery": 75, "description": "Transform into a wandering soul for mobility"}
+            ]
+        },
+        {
+            "name": "Magma",
+            "value": 1150000,
+            "image": "assets/data/images/magma-fruit.webp",
+            "rarity": "rare",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 960000,
+            "price_robux": 1300,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Magma Clap", "key": "Z", "mastery": 1, "description": "Clap hands together creating magma explosion"},
+                {"name": "Magma Eruption", "key": "X", "mastery": 45, "description": "Cause magma to erupt from the ground"},
+                {"name": "Magma Fist", "key": "C", "mastery": 95, "description": "Launch a fist made of magma"},
+                {"name": "Magma Meteors", "key": "V", "mastery": 140, "description": "Call down meteors of magma from the sky"},
+                {"name": "Magma Floor", "key": "F", "mastery": 10, "description": "Create a floor of magma for mobility"}
+            ]
+        },
+        {
+            "name": "Quake",
+            "value": 1000000,
+            "image": "assets/data/images/quake-fruit.webp",
+            "rarity": "legendary", 
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 1000000,
+            "price_robux": 1500,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Quake Punch", "key": "Z", "mastery": 1, "description": "Punch with quake energy causing shockwaves"},
+                {"name": "Quake Wave", "key": "X", "mastery": 50, "description": "Send out a wave of quake energy"},
+                {"name": "Quake Erupt", "key": "C", "mastery": 100, "description": "Cause the ground to erupt with quake force"},
+                {"name": "Dual Tsunami", "key": "V", "mastery": 150, "description": "Create dual tsunamis of quake energy"}
+            ]
+        },
+        {
+            "name": "Buddha",
+            "value": 1000000,
+            "image": "assets/data/images/buddha-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 1200000,
+            "price_robux": 1650,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Transform", "key": "Z", "mastery": 1, "description": "Transform into a giant golden Buddha"},
+                {"name": "Impact", "key": "X", "mastery": 1, "description": "Create a powerful impact shockwave"},
+                {"name": "Buddha Leap", "key": "C", "mastery": 100, "description": "Leap with Buddha force creating shockwaves"},
+                {"name": "Buddha Explosion", "key": "V", "mastery": 200, "description": "Unleash a massive Buddha energy explosion"}
+            ]
+        },
+        {
+            "name": "Love",
+            "value": 1500000,
+            "image": "assets/data/images/love-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 1300000,
+            "price_robux": 1700,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Heart Shot", "key": "Z", "mastery": 1, "description": "Shoot heart-shaped projectiles"},
+                {"name": "Cupid's Zone", "key": "X", "mastery": 50, "description": "Create a zone of love energy"},
+                {"name": "Irresistible Attraction", "key": "C", "mastery": 150, "description": "Pull enemies in with irresistible force"},
+                {"name": "Besto Friendo", "key": "V", "mastery": 200, "description": "Summon a powerful ally to fight with you"},
+                {"name": "Flamingo Ride", "key": "F", "mastery": 100, "description": "Ride a flamingo for mobility"}
+            ]
+        },
+        {
+            "name": "Creation",
+            "value": 3000000,
+            "image": "assets/data/images/creation-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 8,
+            "price_beli": 1400000,
+            "price_robux": 1750,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Batter Up", "key": "Z", "mastery": 1, "description": "Create a bat and swing at enemies"},
+                {"name": "Sleight of Hand", "key": "X", "mastery": 45, "description": "Use prismatic magic for deceptive attacks"},
+                {"name": "Sword Box", "key": "C", "mastery": 90, "description": "Trap enemies in a box of swords"},
+                {"name": "Magic City", "key": "V", "mastery": 130, "description": "Create a city of magic structures"},
+                {"name": "Fortify", "key": "F", "mastery": 10, "description": "Fortify yourself with prismatic magic"}
+            ]
+        },
+        {
+            "name": "Spider",
+            "value": 1500000,
+            "image": "assets/data/images/spider-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 1500000,
+            "price_robux": 1800,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Spider Wraith", "key": "Z", "mastery": 1, "description": "Send out a wraith made of spider silk"},
+                {"name": "Multi-string Attack", "key": "X", "mastery": 50, "description": "Attack with multiple spider strings"},
+                {"name": "Over-heated Sniper", "key": "C", "mastery": 100, "description": "Shoot overheated spider silk sniper shots"},
+                {"name": "Ultimate Thread", "key": "V", "mastery": 225, "description": "Create the ultimate thread trap"},
+                {"name": "Spider Path", "key": "F", "mastery": 15, "description": "Create a path of spider silk for mobility"}
+            ]
+        },
+        {
+            "name": "Sound",
+            "value": 2500000,
+            "image": "assets/data/images/sound-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 1700000,
+            "price_robux": 1900,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Rhapsody Notes", "key": "Z", "mastery": 1, "description": "Launch musical notes as projectiles"},
+                {"name": "Fortissimo", "key": "X", "mastery": 50, "description": "Create a powerful sound explosion"},
+                {"name": "Symphonic Radiance", "key": "C", "mastery": 100, "description": "Radiate symphonic energy in a wide area"},
+                {"name": "Glorious Harmony", "key": "V", "mastery": 250, "description": "Unleash a glorious harmony attack"},
+                {"name": "Tempo: Prestissimo", "key": "F", "mastery": 175, "description": "Increase speed dramatically with sound tempo"}
+            ]
+        },
+        {
+            "name": "Phoenix",
+            "value": 2750000,
+            "image": "assets/data/images/phoenix-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 1800000,
+            "price_robux": 2000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Cannon", "key": "Z", "mastery": 1, "description": "Shoot a phoenix fire cannon"},
+                {"name": "Regeneration Flames", "key": "X", "mastery": 90, "description": "Heal yourself with regeneration flames"},
+                {"name": "Fast Kick", "key": "C", "mastery": 160, "description": "Perform a fast fire kick"},
+                {"name": "Full Transformation", "key": "V", "mastery": 250, "description": "Transform into a full phoenix"},
+                {"name": "Hybrid Flight", "key": "F", "mastery": 30, "description": "Achieve hybrid phoenix flight"}
+            ]
+        },
+        {
+            "name": "Portal",
+            "value": 10000000,
+            "image": "assets/data/images/portal-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 1900000,
+            "price_robux": 2000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Portal Dash", "key": "Z", "mastery": 1, "description": "Dash through portals for quick movement"},
+                {"name": "Parallel Escape", "key": "X", "mastery": 50, "description": "Escape to a parallel dimension briefly"},
+                {"name": "World Warp", "key": "C", "mastery": 200, "description": "Warp to different locations instantly"},
+                {"name": "Dimensional Rift", "key": "V", "mastery": 300, "description": "Create a dimensional rift that damages enemies"},
+                {"name": "Quantum Leap", "key": "F", "mastery": 100, "description": "Leap through quantum portals for mobility"}
+            ]
+        },
+        {
+            "name": "Lightning",
+            "value": 50000000,
+            "image": "assets/data/images/lightning-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 2100000,
+            "price_robux": 2100,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Lightning Orb", "key": "Z", "mastery": 1, "description": "Create and throw lightning orbs"},
+                {"name": "Thunderstorm", "key": "X", "mastery": 90, "description": "Summon a thunderstorm in the area"},
+                {"name": "Sky Judgement", "key": "C", "mastery": 160, "description": "Call down lightning judgement from the sky"},
+                {"name": "Thunderball Destruction", "key": "V", "mastery": 250, "description": "Create massive thunderballs for destruction"},
+                {"name": "Electric Flash", "key": "F", "mastery": 30, "description": "Flash through the air with electric speed"}
+            ]
+        },
+        {
+            "name": "Pain",
+            "value": 10000000,
+            "image": "assets/data/images/pain-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 2300000,
+            "price_robux": 2200,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Fury Jab", "key": "Z", "mastery": 1, "description": "Jab enemies with fury and pain energy"},
+                {"name": "Rage Release", "key": "X", "mastery": 100, "description": "Release built-up rage and pain"},
+                {"name": "Agony Nuke", "key": "C", "mastery": 200, "description": "Create a nuke of agony energy"},
+                {"name": "Torturing Pulse", "key": "V", "mastery": 300, "description": "Unleash a torturing pulse wave"},
+                {"name": "Torment Warp", "key": "F", "mastery": 50, "description": "Warp using torment energy for mobility"}
+            ]
+        },
+        {
+            "name": "Blizzard",
+            "value": 5000000,
+            "image": "assets/data/images/blizzard-fruit.webp",
+            "rarity": "legendary",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 2400000,
+            "price_robux": 2250,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Snowflake Shuriken", "key": "Z", "mastery": 1, "description": "Throw snowflake shurikens at enemies"},
+                {"name": "White Out", "key": "X", "mastery": 90, "description": "Create a whiteout blinding enemies"},
+                {"name": "Howling Wind", "key": "C", "mastery": 160, "description": "Summon howling winds to damage enemies"},
+                {"name": "Blizzard Domain", "key": "V", "mastery": 250, "description": "Create a domain of blizzard energy"},
+                {"name": "Tornado Flight", "key": "F", "mastery": 40, "description": "Fly using tornado winds"}
+            ]
+        },
+        {
+            "name": "Gravity",
+            "value": 100000000,
+            "image": "assets/data/images/gravity-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 2500000,
+            "price_robux": 2300,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Singularity", "key": "Z", "mastery": 1, "description": "Create a gravitational singularity"},
+                {"name": "Orbital Chain", "key": "X", "mastery": 100, "description": "Create chains of orbital gravity"},
+                {"name": "Gravitational Prison", "key": "C", "mastery": 200, "description": "Trap enemies in a prison of gravity"},
+                {"name": "Asteroid Crash", "key": "V", "mastery": 300, "description": "Call down asteroids to crash into enemies"},
+                {"name": "Shooting Star", "key": "F", "mastery": 50, "description": "Fly like a shooting star using gravity"}
+            ]
+        },
+        {
+            "name": "Mammoth",
+            "value": 10000000,
+            "image": "assets/data/images/mammoth-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 2700000,
+            "price_robux": 2350,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Ancient Cutter", "key": "Z", "mastery": 1, "description": "Use ancient mammoth tusks to cut enemies"},
+                {"name": "True Prehistoric Punt", "key": "X", "mastery": 50, "description": "Punt enemies with prehistoric force"},
+                {"name": "Colossal Crusher", "key": "C", "mastery": 100, "description": "Crush enemies with colossal mammoth strength"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a massive mammoth"},
+                {"name": "Stampede", "key": "F", "mastery": 200, "description": "Stampede through enemies with mammoth force"}
+            ]
+        },
+        {
+            "name": "T-Rex",
+            "value": 20000000,
+            "image": "assets/data/images/trex-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 2700000,
+            "price_robux": 2350,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Tail Swipe", "key": "Z", "mastery": 1, "description": "Swipe enemies with T-Rex tail"},
+                {"name": "Predatory Screech", "key": "X", "mastery": 50, "description": "Unleash a predatory screech stunning enemies"},
+                {"name": "Hunter's Rage", "key": "C", "mastery": 100, "description": "Enter hunter's rage mode"},
+                {"name": "Reptilian Scales", "key": "V", "mastery": 300, "description": "Cover yourself in reptilian scales for defense"},
+                {"name": "Gigantic Leap", "key": "F", "mastery": 200, "description": "Leap gigantic distances with T-Rex power"}
+            ]
+        },
+        {
+            "name": "Dough",
+            "value": 30000000,
+            "image": "assets/data/images/dough-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 2800000,
+            "price_robux": 2400,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Missile Jab", "key": "Z", "mastery": 1, "description": "Jab enemies with dough missile fists"},
+                {"name": "Pastry River", "key": "X", "mastery": 100, "description": "Create a river of pastry dough"},
+                {"name": "Piercing Clothesline", "key": "C", "mastery": 200, "description": "Clothesline enemies with piercing dough"},
+                {"name": "Dough Fist Fusillade", "key": "V", "mastery": 300, "description": "Unleash a fusillade of dough fists"},
+                {"name": "Scorching Donut", "key": "F", "mastery": 50, "description": "Create a scorching donut for mobility"}
+            ]
+        },
+        {
+            "name": "Shadow",
+            "value": 6500000,
+            "image": "assets/data/images/shadow-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 2900000,
+            "price_robux": 2425,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Somber Rebellion", "key": "Z", "mastery": 1, "description": "Rebel with somber shadow energy"},
+                {"name": "Shade Nest", "key": "X", "mastery": 100, "description": "Create a nest of shades to trap enemies"},
+                {"name": "Nightmare Leech", "key": "C", "mastery": 200, "description": "Leech health from enemies using nightmares"},
+                {"name": "Corvus Torment", "key": "V", "mastery": 300, "description": "Unleash corvus torment on enemies"},
+                {"name": "Umbrage", "key": "F", "mastery": 50, "description": "Take umbrage and shadow flight"}
+            ]
+        },
+        {
+            "name": "Venom",
+            "value": 2000000,
+            "image": "assets/data/images/venom-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 30000000,
+            "price_robux": 2450,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Poison Daggers", "key": "Z", "mastery": 1, "description": "Throw poison daggers at enemies"},
+                {"name": "Noxious Shot", "key": "X", "mastery": 100, "description": "Shoot noxious venom projectiles"},
+                {"name": "Toxic Fog", "key": "C", "mastery": 200, "description": "Create a toxic fog in the area"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a venomous hydra"},
+                {"name": "Serpent's Wrath", "key": "F", "mastery": 50, "description": "Unleash serpent's wrath for mobility"}
+            ]
+        },
+        {
+            "name": "Gas",
+            "value": 60000000,
+            "image": "assets/data/images/gas-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Elemental",
+            "trend": "overpay",
+            "demand": 8,
+            "price_beli": 3200000,
+            "price_robux": 2500,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Suffocating Fumes", "key": "Z", "mastery": 1, "description": "Release suffocating gas fumes"},
+                {"name": "Bursting Vapor", "key": "X", "mastery": 100, "description": "Create bursting vapor explosions"},
+                {"name": "Smog Demons", "key": "C", "mastery": 200, "description": "Summon smog demons to attack enemies"},
+                {"name": "Vapor Condensation", "key": "V", "mastery": 300, "description": "Condense vapor into powerful attacks"},
+                {"name": "Traveling Gas", "key": "F", "mastery": 50, "description": "Transform into gas for travel"}
+            ]
+        },
+        {
+            "name": "Spirit",
+            "value": 10000000,
+            "image": "assets/data/images/spirit-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 3400000,
+            "price_robux": 2550,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Frostfire Grasp", "key": "Z", "mastery": 1, "description": "Grasp enemies with frostfire energy using angel buddy Shu"},
+                {"name": "Wrath of Ra", "key": "X", "mastery": 150, "description": "Unleash the wrath of demon buddy Ra with fire pillars"},
+                {"name": "Wrath of Shu", "key": "C", "mastery": 250, "description": "Dash and stomp with angel buddy Shu creating ice AoE"},
+                {"name": "End of Times", "key": "V", "mastery": 350, "description": "Merge ice and fire beams for massive frozen explosion"},
+                {"name": "Sky Ruler", "key": "F", "mastery": 75, "description": "Mount spirit buddies for flight"}
+            ]
+        },
+        {
+            "name": "Control",
+            "value": 170000000,
+            "image": "assets/data/images/control-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Natural",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 9000000,
+            "price_robux": 4000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Domain Control", "key": "Z", "mastery": 1, "description": "Create a control domain in the area"},
+                {"name": "Slice N' Dice", "key": "X", "mastery": 150, "description": "Slice and dice enemies within control area"},
+                {"name": "Gamma Blade", "key": "C", "mastery": 250, "description": "Create a blade of gamma energy"},
+                {"name": "Transmutation", "key": "F", "mastery": 75, "description": "Transmute objects for mobility"}
+            ]
+        },
+        {
+            "name": "Kitsune",
+            "value": 630000000,
+            "image": "assets/data/images/kitsune-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 9,
+            "price_beli": 8000000,
+            "price_robux": 4000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Accursed Enchantment", "key": "Z", "mastery": 1, "description": "Enchant enemies with accursed fox magic"},
+                {"name": "Tails of Burning Agony", "key": "X", "mastery": 50, "description": "Attack with tails of burning agony"},
+                {"name": "Fox Fire Disruption", "key": "C", "mastery": 100, "description": "Disrupt enemies with fox fire"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a nine-tailed fox"},
+                {"name": "Wild Assault", "key": "F", "mastery": 200, "description": "Assault enemies with wild fox mobility"}
+            ]
+        },
+        {
+            "name": "Yeti",
+            "value": 140000000,
+            "image": "assets/data/images/yeti-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 5000000,
+            "price_robux": 3000,
+            "best_for": "farming",
+            "moves": [
+                {"name": "Arctic Clap", "key": "Z", "mastery": 1, "description": "Clap hands creating arctic shockwaves"},
+                {"name": "Frostbite Boulder", "key": "X", "mastery": 50, "description": "Throw frostbite boulders at enemies"},
+                {"name": "Glacial Execution", "key": "C", "mastery": 100, "description": "Execute glacial attacks freezing enemies"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a massive yeti"},
+                {"name": "Tundra Rush", "key": "F", "mastery": 200, "description": "Rush through tundra with yeti speed"}
+            ]
+        },
+        {
+            "name": "Tiger",
+            "value": 150000000,
+            "image": "assets/data/images/tiger-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "stable",
+            "demand": 7,
+            "price_beli": 5000000,
+            "price_robux": 3000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Finger Revolver", "key": "Z", "mastery": 1, "description": "Shoot finger revolver bullets"},
+                {"name": "Spiraling Kick", "key": "X", "mastery": 50, "description": "Perform a spiraling kick attack"},
+                {"name": "Afterimage Assault", "key": "C", "mastery": 100, "description": "Assault enemies with afterimages"},
+                {"name": "Transformation", "key": "V", "mastery": 300, "description": "Transform into a powerful tiger"},
+                {"name": "Body Flicker", "key": "F", "mastery": 200, "description": "Flicker your body for high-speed mobility"}
+            ]
+        },
+        {
+            "name": "Dragon",
+            "value": 5280000000,
+            "image": "assets/data/images/dragon-fruit.webp",
+            "rarity": "mythical",
+            "fruit_type": "Beast",
+            "trend": "overpay",
+            "demand": 10,
+            "price_beli": 15000000,
+            "price_robux": 5000,
+            "best_for": "pvp",
+            "moves": [
+                {"name": "Heatwave Cannon", "key": "Z", "mastery": 1, "description": "Shoot a heatwave cannon blast"},
+                {"name": "Infernal Pincer", "key": "X", "mastery": 150, "description": "Attack with infernal dragon pincers"},
+                {"name": "Scorching Downfall", "key": "C", "mastery": 250, "description": "Call down scorching dragon fire"},
+                {"name": "Imperial Evolution", "key": "V", "mastery": 350, "description": "Evolve into imperial dragon form"},
+                {"name": "Draconic Soar", "key": "F", "mastery": 75, "description": "Soar through the air with draconic wings"}
+            ]
+        }
+    ]
+}

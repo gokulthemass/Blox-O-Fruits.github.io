@@ -1,0 +1,144 @@
+{
+  "allguns": [
+    {
+      "name": "Slingshot",
+      "image": "assets/data/images/slingshot.webp",
+      "rarity": "Common",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Starter Island",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Flintlock",
+      "image": "assets/data/images/flintlock.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 10250,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Pirate Village",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Musket",
+      "image": "assets/data/images/musket.webp",
+      "rarity": "Uncommon",
+      "cost_beli": 8000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Marine Fortress",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Refined Slingshot",
+      "image": "assets/data/images/refined_slingshot.webp",
+      "rarity": "Rare",
+      "cost_beli": 30000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Skylands",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Cannon",
+      "image": "assets/data/images/cannon.webp",
+      "rarity": "Rare",
+      "cost_beli": 100000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Marine Fortress",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Dual Flintlock",
+      "image": "assets/data/images/dual_flintlock.webp",
+      "rarity": "Rare",
+      "cost_beli": 65000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Marine Fortress",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Acidum Rifle",
+      "image": "assets/data/images/acidum_rifle.webp",
+      "rarity": "Rare",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Factory Raid",
+      "location": "Second Sea",
+      "requirements": "Factory Raid Drop"
+    },
+    {
+      "name": "Bizarre Revolver",
+      "image": "assets/data/images/bizarre_revolver.webp",
+      "rarity": "Rare",
+      "cost_beli": 25000,
+      "cost_fragments": 0,
+      "npc": "Weapon Dealer",
+      "location": "Kingdom of Rose",
+      "requirements": "Buy from NPC"
+    },
+    {
+      "name": "Magma Blaster",
+      "image": "assets/data/images/magma_blaster.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Magma Admiral",
+      "location": "Magma Village",
+      "requirements": "10% Boss Drop"
+    },
+    {
+      "name": "Bazooka",
+      "image": "assets/data/images/bazooka.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Wysper",
+      "location": "Upper Skylands",
+      "requirements": "Boss Drop"
+    },
+    {
+      "name": "Kabucha",
+      "image": "assets/data/images/kabucha.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 1500,
+      "npc": "Usoap",
+      "location": "Kingdom of Rose",
+      "requirements": "Purchase with Fragments"
+    },
+    {
+      "name": "Dragonstorm",
+      "image": "assets/data/images/dragonstorm.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Dragon Hunter",
+      "location": "Prehistoric Island",
+      "requirements": "Craft / Quest Reward"
+    },
+    {
+      "name": "Venom Bow",
+      "image": "assets/data/images/venom_bow.webp",
+      "rarity": "Legendary",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Venom Boss",
+      "location": "Third Sea",
+      "requirements": "10% Boss Drop"
+    },
+    {
+      "name": "Skull Guitar",
+      "image": "assets/data/images/skull_guitar.webp",
+      "rarity": "Mythical",
+      "cost_beli": 0,
+      "cost_fragments": 0,
+      "npc": "Puzzle Reward",
+      "location": "Haunted Castle",
+      "requirements": "Complete Skull Guitar Puzzle"
+    }
+  ]
+}

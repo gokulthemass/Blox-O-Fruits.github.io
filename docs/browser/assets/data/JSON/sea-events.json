@@ -1,0 +1,200 @@
+{
+  "allSeaEvents": [
+    {
+      "name": "Ship Raid",
+      "image": null,
+      "type": "Pirate Raid",
+      "location_seas": ["2nd Sea", "3rd Sea"],
+      "danger_level": "Low to Medium",
+      "description": "Regular pirate ship that attacks your boat until defeated or you sail out of distance",
+      "rewards": {
+        "fragments": "75",
+        "belly": "Variable",
+        "items": ["Forgotten Gold"]
+      },
+      "how_to_defeat": "Attack the pirate ship until destroyed"
+    },
+    {
+      "name": "Sea Beast",
+      "image": null,
+      "type": "Sea Monster",
+      "location_seas": ["2nd Sea", "3rd Sea"],
+      "danger_level": "Medium to High",
+      "description": "Large sea monster that emerges from the water",
+      "rewards": {
+        "fragments": "150-200",
+        "belly": "Variable",
+        "items": ["Sea Beast Eye"]
+      },
+      "how_to_defeat": "Attack the Sea Beast until defeated"
+    },
+    {
+      "name": "Shark",
+      "image": null,
+      "type": "Sea Monster",
+      "location_seas": ["2nd Sea", "3rd Sea"],
+      "danger_level": "Low",
+      "description": "Group of sharks that attack your boat",
+      "rewards": {
+        "fragments": "50-100",
+        "belly": "Variable",
+        "items": ["Terror Shark Eye"]
+      },
+      "how_to_defeat": "Attack sharks until defeated"
+    },
+    {
+      "name": "Piranha",
+      "image": null,
+      "type": "Sea Monster",
+      "location_seas": ["2nd Sea", "3rd Sea"],
+      "danger_level": "Low",
+      "description": "Small piranhas that swarm your boat",
+      "rewards": {
+        "fragments": "30-50",
+        "belly": "Variable",
+        "items": ["Terror Pincher"]
+      },
+      "how_to_defeat": "Attack piranhas until defeated"
+    },
+    {
+      "name": "Rough Sea",
+      "image": null,
+      "type": "Environmental",
+      "location_seas": ["2nd Sea", "3rd Sea"],
+      "danger_level": "Any",
+      "description": "Random event with lightning that damages players and boat health",
+      "rewards": {
+        "fragments": "0",
+        "belly": "0",
+        "items": []
+      },
+      "how_to_escape": "Sail forward for 10-15 seconds to exit"
+    },
+    {
+      "name": "Treasure Island",
+      "image": null,
+      "type": "Island",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "Low to High",
+      "description": "Small island with multiple chests containing money and fragments",
+      "rewards": {
+        "fragments": "Variable",
+        "belly": "Variable",
+        "items": ["Chest Contents"]
+      },
+      "how_to_get": "Land on island and open chests"
+    },
+    {
+      "name": "Haunted Ship Raid",
+      "image": null,
+      "type": "Ghost Ship",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "Medium to High",
+      "description": "Ghost brigade-looking boat that attacks until defeated",
+      "rewards": {
+        "fragments": "75",
+        "belly": "Variable",
+        "items": ["Forgotten Gold", "Ghost Ship related items"]
+      },
+      "how_to_defeat": "Attack the Ghost Ship until destroyed"
+    },
+    {
+      "name": "Rumbling Waters",
+      "image": null,
+      "type": "Environmental",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "Any",
+      "description": "Turbulent water that damages boat and players",
+      "rewards": {
+        "fragments": "0",
+        "belly": "0",
+        "items": []
+      },
+      "how_to_escape": "Sail through the area quickly"
+    },
+    {
+      "name": "Terrorshark",
+      "image": null,
+      "type": "Sea Monster",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "High",
+      "description": "Larger, more dangerous version of regular sharks",
+      "rewards": {
+        "fragments": "200-300",
+        "belly": "Variable",
+        "items": ["Terror Eyes", "Terror Jaw"]
+      },
+      "how_to_defeat": "Attack Terrorshark until defeated"
+    },
+    {
+      "name": "Haunted Shipwreck",
+      "image": null,
+      "type": "Island/Monster",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "High",
+      "description": "Shipwreck with ghostly entities",
+      "rewards": {
+        "fragments": "100-150",
+        "belly": "Variable",
+        "items": ["Ghost Ship items"]
+      },
+      "how_to_get": "Explore shipwreck and defeat enemies"
+    },
+    {
+      "name": "Kitsune Island",
+      "image": null,
+      "type": "Island",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "High",
+      "description": "Rare island event with special rewards",
+      "rewards": {
+        "fragments": "200-400",
+        "belly": "Variable",
+        "items": ["Kitsune related items", "Rare fruits"]
+      },
+      "how_to_get": "Land on island and explore"
+    },
+    {
+      "name": "Mirage Island",
+      "image": null,
+      "type": "Mythic Island",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "3-6",
+      "description": "Rare island with many chests, hard to find but rewards big",
+      "rewards": {
+        "fragments": "500+",
+        "belly": "Variable",
+        "items": ["Multiple chest contents", "Rare items"]
+      },
+      "how_to_get": "Find and land on Mirage Island, open all chests"
+    },
+    {
+      "name": "Leviathan",
+      "image": null,
+      "type": "Boss Raid",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "Question Mark Zones",
+      "description": "Boss with two HP bars and shield that must be destroyed by attacking tails",
+      "rewards": {
+        "fragments": "1000+",
+        "belly": "Variable",
+        "items": ["Leviathon Heart (for Sanguine Art)"]
+      },
+      "how_to_defeat": "Destroy shield by attacking tails, then attack HP bars"
+    },
+    {
+      "name": "Frozen Dimension",
+      "image": null,
+      "type": "Dimension Portal",
+      "location_seas": ["3rd Sea"],
+      "danger_level": "Question Mark Zones",
+      "description": "Portal that teleports to Leviathan raid",
+      "rewards": {
+        "fragments": "0",
+        "belly": "0",
+        "items": ["Teleportation to Leviathan"]
+      },
+      "how_to_access": "Speak with blue orb after bribing Spy NPC at Tiki Outpost"
+    }
+  ]
+}
