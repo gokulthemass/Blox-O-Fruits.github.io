@@ -51,7 +51,7 @@ export class Fruits implements OnInit{
   }
 
   this.http
-    .get<{ allfruit: fruits[] }>('/assets/data/JSON/fruits.json')
+    .get<{ allfruit: fruits[] }>('assets/data/JSON/fruits.json')
     .subscribe({
       next: (data) => {
         this.fruitArray = data.allfruit;
