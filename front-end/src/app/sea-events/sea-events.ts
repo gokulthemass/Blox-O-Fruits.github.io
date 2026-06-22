@@ -40,18 +40,7 @@ export class SeaEvents implements OnInit {
 
   ngOnInit(): void {
 
-    const savedContent = localStorage.getItem('allSeaEvents');
 
-    if (savedContent) {
-      try {
-        this.seaEventArray = JSON.parse(savedContent);
-        console.log('Loaded from local storage!');
-        return;
-      } catch (err) {
-        console.error('Invalid localStorage value:', savedContent);
-        localStorage.removeItem('allSeaEvents');
-      }
-    }
 
     this.http
       .get<{ allSeaEvents: SeaEvent[] }>(
