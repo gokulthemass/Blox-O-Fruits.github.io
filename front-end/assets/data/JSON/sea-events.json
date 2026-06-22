@@ -2,7 +2,7 @@
   "allSeaEvents": [
     {
       "name": "Ship Raid",
-      "image": null,
+      "image": "assets/data/images/ship-raids.webp",
       "type": "Pirate Raid",
       "location_seas": ["2nd Sea", "3rd Sea"],
       "danger_level": "Low to Medium",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Sea Beast",
-      "image": null,
+      "image": "assets/data/images/sea-beast.webp",
       "type": "Sea Monster",
       "location_seas": ["2nd Sea", "3rd Sea"],
       "danger_level": "Medium to High",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Shark",
-      "image": null,
+      "image": "assets/data/images/shark.webp",
       "type": "Sea Monster",
       "location_seas": ["2nd Sea", "3rd Sea"],
       "danger_level": "Low",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Piranha",
-      "image": null,
+      "image": "assets/data/images/piranha.webp",
       "type": "Sea Monster",
       "location_seas": ["2nd Sea", "3rd Sea"],
       "danger_level": "Low",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Rough Sea",
-      "image": null,
+      "image": "assets/data/images/rough-sea.webp",
       "type": "Environmental",
       "location_seas": ["2nd Sea", "3rd Sea"],
       "danger_level": "Any",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Treasure Island",
-      "image": null,
+      "image": "assets/data/images/treasure-island.webp",
       "type": "Island",
       "location_seas": ["3rd Sea"],
       "danger_level": "Low to High",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Haunted Ship Raid",
-      "image": null,
+      "image": "assets/data/images/haunted-ship-raid.webp",
       "type": "Ghost Ship",
       "location_seas": ["3rd Sea"],
       "danger_level": "Medium to High",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Rumbling Waters",
-      "image": null,
+      "image": "assets/data/images/rumbling-water.webp",
       "type": "Environmental",
       "location_seas": ["3rd Sea"],
       "danger_level": "Any",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Terrorshark",
-      "image": null,
+      "image": "assets/data/images/terrorshark.webp",
       "type": "Sea Monster",
       "location_seas": ["3rd Sea"],
       "danger_level": "High",
@@ -128,7 +128,7 @@
     },
     {
       "name": "Haunted Shipwreck",
-      "image": null,
+      "image": "assets/data/images/haunted-shipwreck.webp",
       "type": "Island/Monster",
       "location_seas": ["3rd Sea"],
       "danger_level": "High",
@@ -142,7 +142,7 @@
     },
     {
       "name": "Kitsune Island",
-      "image": null,
+      "image": "assets/data/images/kitsune-island.webp",
       "type": "Island",
       "location_seas": ["3rd Sea"],
       "danger_level": "High",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Mirage Island",
-      "image": null,
+      "image": "assets/data/images/mirage-island.webp",
       "type": "Mythic Island",
       "location_seas": ["3rd Sea"],
       "danger_level": "3-6",
@@ -170,7 +170,7 @@
     },
     {
       "name": "Leviathan",
-      "image": null,
+      "image": "assets/data/images/leviathan.webp",
       "type": "Boss Raid",
       "location_seas": ["3rd Sea"],
       "danger_level": "Question Mark Zones",
@@ -184,7 +184,7 @@
     },
     {
       "name": "Frozen Dimension",
-      "image": null,
+      "image": "assets/data/images/frozen_dimension.webp",
       "type": "Dimension Portal",
       "location_seas": ["3rd Sea"],
       "danger_level": "Question Mark Zones",
